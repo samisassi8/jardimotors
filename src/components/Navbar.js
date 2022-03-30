@@ -1,42 +1,33 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
-import { AiOutlineClose } from "react-icons/ai";
 import "./Navbar.css";
-import { SidebarData } from "./SidebarData";
+// import Dropdown from "./Dropdown";
+import logo from "../assets/logo.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { CgClose } from "react-icons/cg";
 
-function Navbar() {
-  const [sidebar, setSidebar] = useState(false);
+export default function Navbar() {
+  const [click, setClick] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const handleClick = () => setClick(!click);
 
   return (
-    <>
-      <div className="navbar">
-        <Link to="#" className="menu_bars">
-          <FaBars onClick={showSidebar} />
-        </Link>
+    <nav className="navbar">
+      <Link to="/" className="navbar-logo">
+        <img src={logo} alt="company logo" />
+      </Link>
+      <div className="menu-icon" onClick={handleClick}>
+        <button
+          onClick={() => {
+            setClick(!click);
+          }}
+          className="nav-btn"
+        >
+          {click ? <CgClose /> : <GiHamburgerMenu />}
+        </button>
+        <Link to="/tondeuse">Tondeuse</Link>
+        <Link to="/tondeuse-auto-portee">Tondeuse auto portée</Link>
       </div>
-      <nav className={sidebar ? "nav_menu active" : "nav_menu"} />
-      <ul className="nav_menu_items">
-        <li className="navbar_toggle">
-          <Link to="#" className="menu_bars">
-            <AiOutlineClose />
-          </Link>
-        </li>
-        {SidebarData.map((item, index) => {
-          return (
-            <li key={index} className={item.cName}>
-              <Link to={item.path}>
-                {item.icon}
-                <span>{item.title}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </>
+    </nav>
   );
 }
-
-export default Navbar;
