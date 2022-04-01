@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Debrouisailleuse() {
+export default function Debrouissailleuse() {
   return <div>Debrouisailleuse</div>;
 }
