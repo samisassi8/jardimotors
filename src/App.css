@@ -9,6 +9,11 @@
     url("assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: didot;
+  src: url("assets/fonts/didot/Regular/Didot\ Regular.ttf");
+}
+
 :root {
   --primary-color: #fc3e29;
 }
@@ -24,7 +29,7 @@
 }
 
 .App {
-  background-image: url("./assets/background.jpg");
+  /* background-image: url("./assets/background.jpg"); */
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,3 +45,17 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.home__container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__container h1 {
+  font-size: 70px;
+  font-family: stencil;
+}
+
+/* https://www.gardenlust.com.au/ */

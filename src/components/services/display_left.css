@@ -1,0 +1,15 @@
+.services___right {
+  display: flex;
+  padding-top: 80px;
+}
+
+p {
+  margin: 0 30px;
+  font-family: didot;
+}
+
+img {
+  position: left;
+  margin-left: 30px;
+  width: 40%;
+}

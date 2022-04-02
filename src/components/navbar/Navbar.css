@@ -72,8 +72,12 @@ nav button:hover {
   /* border-top-right-radius: 50px;
   border-bottom-right-radius: 50px; */
   width: 91vw;
-  border-radius: 50px;
+  border-radius: 10px;
 }
+
+/* translateX 
+100% mobile
+33% desktop*/
 
 /* .nav__dropdown a:nth-child(1) {
 } */

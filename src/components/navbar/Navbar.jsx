@@ -23,32 +23,40 @@ export default function Navbar() {
         </button>
         <div className={click ? "dropdownShow" : "hidden"}>
           <h2>Les services</h2>
-          <Link onClick={() => setClick(false)} to="/tondeuse">
+          <Link onClick={() => setClick(false)} to="/services/#tondeuse">
             Tondeuse
           </Link>
-          <Link onClick={() => setClick(false)} to="/tondeuse-auto-portee">
+          <Link
+            onClick={() => setClick(false)}
+            to="/services/#tondeuseAutoPortee"
+          >
             Tondeuse auto portée
           </Link>
-          <Link onClick={() => setClick(false)} to="/debroussailleuse">
+          <Link
+            onClick={() => setClick(false)}
+            to="/services/#debrouissailleuse"
+          >
             Débroussailleuse
           </Link>
-          <Link onClick={() => setClick(false)} to="/moto-culteur">
+          <Link onClick={() => setClick(false)} to="/services/#motoculteur">
             Moto culteur
           </Link>
-          <Link onClick={() => setClick(false)} to="/groupe-electrogene">
+          <Link
+            onClick={() => setClick(false)}
+            to="/services/#groupeElectrogene"
+          >
             Groupe électrogène
           </Link>
-          <Link onClick={() => setClick(false)} to="/taille-haie">
+          <Link onClick={() => setClick(false)} to="/services/#tailleHaie">
             Taille haie
           </Link>
-          <Link onClick={() => setClick(false)} to="/souffleur">
+          <Link onClick={() => setClick(false)} to="/services/#souffleur">
             Souffleur
           </Link>
         </div>
       </div>
       <Link to="/" className="nav__logo">
         <img src={logo} alt="jardimotors" />
-        <h1>JARDIMOTORS</h1>
       </Link>
       <div className="nav__icon">
         <button>
