@@ -39,12 +39,12 @@ nav button {
   background-color: transparent;
   padding: 20px;
   border: none;
-  color: white;
+  color: black;
 }
 
 .nav__icon a {
   padding: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ nav svg {
 }
 
 nav button svg:visited {
-  color: white;
+  color: black;
 }
 
 nav button:hover {

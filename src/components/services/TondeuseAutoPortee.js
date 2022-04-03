@@ -1,24 +1,32 @@
 import React from "react";
-import tondeuseAutoPortee from "../../assets/tondeuseAutoPortee.jpg";
 import "./display_left.css";
+import tondeuseAutoPortee from "../../assets/tondeuseAutoPortee.jpg";
+import Flip from "react-reveal/Flip";
+import Bounce from "react-reveal/Bounce";
 
-export default function TondeuseAutoPortee() {
+export default function Tondeuse() {
   return (
     <div>
-      <h3>Tondeuse auto portée</h3>
-      <div className="services___right">
-        <img src={tondeuseAutoPortee} alt="tondeuse auto portee" />
-        <p>
-          Confiez-nous la réparation de votre tondeuse pour la remettre en
-          marche,quelle que soit sa marque:
-          <p>Amélioration des performances</p>
-          <p>Interventions sur pannes diverses:</p>
-          <p>Lié au cable</p>
-          <p>l'état des courroies</p>
-          <p>aide au démarage du moteur (thermique ou électrique)</p>
-          <p>Remplacement des bougies, pignons, lames, chaines...</p>
-        </p>
+      <Flip left>
+        <h3>Motoculteur</h3>
+      </Flip>
+      <div className="services___left">
+        <div className="service_picture">
+          <Bounce left>
+            <img src={tondeuseAutoPortee} alt="tondeuse auto portee" />
+          </Bounce>
+        </div>
+        <div className="description">
+          <ul>
+            <li>Interventions diverses:</li>
+            <li>Lié au câble</li>
+            <li>l'état des courroies</li>
+            <li>aide au démarage du moteur (thermique ou électrique)</li>
+            <li>Remplacement des bougies, pignons, lames, chaines...</li>
+          </ul>
+        </div>
       </div>
+      <div className="border"></div>
     </div>
   );
 }

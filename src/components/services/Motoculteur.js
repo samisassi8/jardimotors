@@ -1,24 +1,32 @@
 import React from "react";
-import motoculteur from "../../assets/motoculteur.jpeg";
 import "./display_right.css";
+import motoculteur from "../../assets/motoculteur.jpeg";
+import Flip from "react-reveal/Flip";
+import Bounce from "react-reveal/Bounce";
 
-export default function Motoculteur() {
+export default function Tondeuse() {
   return (
     <div>
-      <h3>Motoculteur</h3>
+      <Flip left>
+        <h3>Motoculteur</h3>
+      </Flip>
       <div className="services___right">
-        <p>
-          Confiez-nous la réparation de votre tondeuse pour la remettre en
-          marche,quelle que soit sa marque:
-          <p>Amélioration des performances</p>
-          <p>Interventions sur pannes diverses:</p>
-          <p>Lié au cable</p>
-          <p>l'état des courroies</p>
-          <p>aide au démarage du moteur (thermique ou électrique)</p>
-          <p>Remplacement des bougies, pignons, lames, chaines...</p>
-        </p>
-        <img src={motoculteur} alt="motoculteur" />
+        <div className="description">
+          <ul>
+            <li>Interventions diverses:</li>
+            <li>Lié au câble</li>
+            <li>l'état des courroies</li>
+            <li>aide au démarage du moteur (thermique ou électrique)</li>
+            <li>Remplacement des bougies, pignons, lames, chaines...</li>
+          </ul>
+        </div>
+        <div className="service_picture">
+          <Bounce right>
+            <img src={motoculteur} alt="motoculteur" />
+          </Bounce>
+        </div>
       </div>
+      <div className="border"></div>
     </div>
   );
 }
