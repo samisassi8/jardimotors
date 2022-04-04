@@ -4,9 +4,9 @@ import tondeuseAutoPortee from "../../assets/tondeuseAutoPortee.jpg";
 import Flip from "react-reveal/Flip";
 import Bounce from "react-reveal/Bounce";
 
-export default function Tondeuse() {
+export default function TondeuseAutoPortee() {
   return (
-    <div>
+    <div id="tondeuseAutoPortee">
       <Flip left>
         <h3>Motoculteur</h3>
       </Flip>
@@ -18,11 +18,14 @@ export default function Tondeuse() {
         </div>
         <div className="description">
           <ul>
-            <li>Interventions diverses:</li>
-            <li>Lié au câble</li>
-            <li>l'état des courroies</li>
-            <li>aide au démarage du moteur (thermique ou électrique)</li>
-            <li>Remplacement des bougies, pignons, lames, chaines...</li>
+            <li>révision</li>
+            <li>
+              réparation multiples ( moteur, carburation, transmission, système
+              de coupe, courroies, batterie)
+            </li>
+            <li>affûtage</li>
+            <li>crevaison</li>
+            <li>graissage</li>
           </ul>
         </div>
       </div>

@@ -4,20 +4,20 @@ import motoculteur from "../../assets/motoculteur.jpeg";
 import Flip from "react-reveal/Flip";
 import Bounce from "react-reveal/Bounce";
 
-export default function Tondeuse() {
+export default function Motoculteur() {
   return (
-    <div>
+    <div id="motoculteur">
       <Flip left>
         <h3>Motoculteur</h3>
       </Flip>
       <div className="services___right">
         <div className="description">
           <ul>
-            <li>Interventions diverses:</li>
-            <li>Lié au câble</li>
-            <li>l'état des courroies</li>
-            <li>aide au démarage du moteur (thermique ou électrique)</li>
-            <li>Remplacement des bougies, pignons, lames, chaines...</li>
+            <li>révision</li>
+            <li>
+              réparation multiples ( moteur, carburation, transmission
+              ,courroies
+            </li>
           </ul>
         </div>
         <div className="service_picture">

@@ -12,10 +12,10 @@ export default function Services() {
     <div>
       <h1>Nos Services</h1>
       <div>
-        <Tondeuse id="tondeuse" />
-        <TondeuseAutoPortee id="tondeuseAutoPortee" />
-        <Debrouissailleuse id="debrouissailleuse" />
-        <Motoculteur id="motoculteur" />
+        <Tondeuse />
+        <TondeuseAutoPortee />
+        <Debrouissailleuse />
+        <Motoculteur  />
         <GroupeElectrogene id="groupeElectrogene" />
         <TailleHaie id="tailleHaie" />
         <Souffleur id="souffleur" />

@@ -13,11 +13,12 @@ export default function Tondeuse() {
       <div className="services___right">
         <div className="description">
           <ul>
-            <li>Interventions diverses:</li>
-            <li>Lié au câble</li>
-            <li>l'état des courroies</li>
-            <li>aide au démarage du moteur (thermique ou électrique)</li>
-            <li>Remplacement des bougies, pignons, lames, chaines...</li>
+            <li>réviions et entretien</li>
+            <li>
+              réparation multiples ( moteur, carburation transmission , etc)
+            </li>
+            <li>affûtage</li>
+            <li>graissage</li>
           </ul>
         </div>
         <div className="service_picture">
