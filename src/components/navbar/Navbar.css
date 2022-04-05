@@ -1,8 +1,11 @@
 nav {
+  position: fixed;
+  background-color: #faf9fa;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 5;
 }
 
 .nav__dropdown {
@@ -61,7 +64,7 @@ nav button:hover {
 }
 
 .dropdownShow {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.859);
   position: absolute;
   left: 20px;
   top: 110px;
@@ -69,8 +72,6 @@ nav button:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  /* border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px; */
   width: 91vw;
   border-radius: 10px;
 }
@@ -88,7 +89,6 @@ h2 {
   letter-spacing: 1.5px;
   font-weight: 550;
   padding: 20px 0 20px 60px;
-  border-bottom: 1px solid #3e433e;
   width: 100%;
   text-decoration: none;
   color: white;

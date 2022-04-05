@@ -4,7 +4,6 @@ import "./infos.css";
 export default function infos() {
   return (
     <>
-      <h2>Infos</h2>
       <div className="infos__coordonnees">
         <h3>Coordonnées</h3>
         <p>5 Rue de la Grève 10410 Ruvigny</p>

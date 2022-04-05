@@ -41,8 +41,9 @@
 }
 
 main {
-  /* position: relative; */
-  padding-top: 30px;
+  position: relative;
+  padding-top: 130px;
+  padding-bottom: 50px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -55,8 +56,33 @@ main {
 }
 
 .home__container h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: stencil;
+}
+
+footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+footer div a {
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 50%;
 }
 
 /* https://www.gardenlust.com.au/ */

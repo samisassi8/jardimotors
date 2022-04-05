@@ -27,6 +27,7 @@ export default function Navbar({ services }) {
           <h2>Les services</h2>
           {services?.map((service, index) => (
             <HashLink
+              targetOffset="150"
               key={index}
               to={"/services/#" + service.title.toLowerCase()}
               onClick={() => setClick(false)}
@@ -41,7 +42,9 @@ export default function Navbar({ services }) {
       </Link>
       <div className="nav__icon">
         <button>
-          <AiFillPhone />
+          <a href="tel:+330672337277">
+            <AiFillPhone />
+          </a>
         </button>
         <Link to="/infos">
           <SiGooglemaps />
