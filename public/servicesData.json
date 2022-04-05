@@ -1,0 +1,69 @@
+{
+  "details": [
+    {
+      "title": "Tondeuse",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples ( moteur, carburation transmission , etc )",
+        "affûtage",
+        "graissage"
+      ],
+      "img": "/images/tondeuse.jpg"
+    },
+    {
+      "title": "Tondeuse Auto Portée",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples ( moteur, carburation, transmission, système de coupe, courroies, batterie )",
+        "affûtage",
+        "crevaison",
+        "graissage"
+      ],
+      "img": "/images/tondeuseAutoPortee.jpg"
+    },
+    {
+      "title": "Debroussailleuse",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples ( moteur,  carburation,  allumage, système de coupe )"
+      ],
+      "img": "/images/debroussailleuse.jpeg"
+    },
+    {
+      "title": "Motoculteur",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples ( moteur, carburation, transmission ,courroies )"
+      ],
+      "img": "/images/motoculteur.jpeg"
+    },
+    {
+      "title": "Groupe électrogène",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples ( moteur, carburation transmission , etc)",
+        "affûtage",
+        "graissage"
+      ],
+      "img": "/images/groupeElectrogene.jpeg"
+    },
+    {
+      "title": "Taille haie",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples (moteur, carburation, allumage, lanceurs )",
+        "affûtage",
+        "graissage"
+      ],
+      "img": "/images/tailleHaie.jpg"
+    },
+    {
+      "title": "Souffleur",
+      "description": [
+        "révisions et entretien",
+        "réparation multiples ( système de coupe, moteur, carburation, graissage etc)"
+      ],
+      "img": "/images/souffleur.jpeg"
+    }
+  ]
+}
