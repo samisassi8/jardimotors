@@ -1,10 +1,11 @@
-.services___right {
+.services__info {
   display: block;
   padding-top: 40px;
 }
 
 h3 {
-  padding-top: 50px;
+  font-size: 2.5rem;
+  padding-top: 70px;
 }
 
 .description {
@@ -13,10 +14,10 @@ h3 {
 }
 
 .description ul {
-  width: 90%;
+  width: 80%;
   margin: auto;
   font-family: didot;
-  text-align: center;
+  text-align: left;
 }
 
 ul li:first-child {
@@ -31,7 +32,7 @@ ul li {
 
 .service_picture img {
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 
 .border {
@@ -42,9 +43,8 @@ ul li {
 }
 
 @media screen and (min-width: 700px) {
-  .services___right {
+  .services__info {
     display: flex;
-    /* font-weight: 900; */
     letter-spacing: 2.5px;
   }
   .border {

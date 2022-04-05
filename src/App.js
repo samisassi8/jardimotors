@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home";
 import Infos from "./components/infos/infos";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 // comment faire de l'import dynamique
 // Si un composant est trop lourd au chargement:
@@ -40,6 +41,7 @@ function App() {
             <Route path="*" element={<Home />} />
           </Routes>
           {/* </Suspense> */}
+          <Footer />
         </main>
       </div>
     </>
