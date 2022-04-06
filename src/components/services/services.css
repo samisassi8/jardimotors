@@ -1,8 +1,14 @@
 .services__container {
+<<<<<<< HEAD
   padding: 40px 15px;
   max-width: 1200px;
   margin: 0 auto;
   background-color: white;
+=======
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+>>>>>>> 18f3b85... project ended
 }
 
 .services__container h1 {
