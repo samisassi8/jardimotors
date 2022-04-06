@@ -2,7 +2,7 @@
   "details": [
     {
       "title": "Tondeuse",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": [
         "réparation multiples ( moteur, carburation transmission , etc )",
         "affûtage",
@@ -12,7 +12,7 @@
     },
     {
       "title": "Tondeuse Auto Portée",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": [
         "réparation multiples ( moteur, carburation, transmission, système de coupe, courroies, batterie )",
         "affûtage",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Debroussailleuse",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": [
         "réparation multiples ( moteur,  carburation,  allumage, système de coupe )"
       ],
@@ -31,7 +31,7 @@
     },
     {
       "title": "Motoculteur",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": [
         "réparation multiples ( moteur, carburation, transmission ,courroies )"
       ],
@@ -39,13 +39,13 @@
     },
     {
       "title": "Groupe électrogène",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": ["Controle et réglages de la tension électrique"],
       "img": "/images/groupeElectrogene.jpeg"
     },
     {
       "title": "Taille haie",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": [
         "réparation multiples (moteur, carburation, allumage, lanceurs )",
         "affûtage",
@@ -55,7 +55,7 @@
     },
     {
       "title": "Souffleur",
-      "subTitle": "révisions et entretien",
+      "subTitle": "Révisions et entretien",
       "description": [
         "réparation multiples ( système de coupe, moteur, carburation, graissage etc)"
       ],

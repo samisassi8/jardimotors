@@ -1,7 +1,7 @@
 nav {
-  padding: 5px;
+  padding: 5px 20px;
   position: fixed;
-  background-color: #faf9fa;
+  background-color: rgba(255, 255, 255, 0.2);
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,9 +9,12 @@ nav {
   z-index: 5;
 }
 
+.nav_bg_blur {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .nav__dropdown {
   position: relative;
-  /* width: 165px; */
 }
 
 .nav__logo {
@@ -67,15 +70,16 @@ h1 {
 
 nav button {
   background-color: transparent;
-  padding: 20px;
+  /* padding: 20px; */
   border: none;
   color: black;
 }
 
 .nav__icon a {
-  padding: 15px;
+  padding-left: 20px;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav svg {
@@ -91,15 +95,19 @@ nav button:hover {
 }
 
 .dropdownShow {
+  height: 84vh;
+  overflow: scroll;
+  padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.859);
   position: absolute;
-  left: 20px;
-  top: 110px;
+  left: 5px;
+  top: 85px;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 91vw;
+  width: 95vw;
   border-radius: 10px;
 }
 
@@ -120,7 +128,7 @@ h2 {
   font-weight: 100;
   letter-spacing: 1.8px;
   text-align: center;
-  padding: 20px 0;
+  padding: 5px 0;
   text-transform: uppercase;
 }
 
@@ -132,18 +140,39 @@ h2 {
   display: none;
 }
 
-@media screen and (min-width: 700px) {
-  h1 {
-    display: block;
-    /* font-weight: 900; */
-    letter-spacing: 2.5px;
-  }
+a,
+button,
+.nav_icon a {
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 426px) {
+  nav {
+    padding: 25px;
+  }
   .nav__logo {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: calc(50% - 50px);
+  }
+  .dropdownShow {
+    padding: 20px 0;
+    top: 75px;
+    width: 400px;
+    height: 600px;
+  }
+  nav svg {
+    font-size: 33px;
+    margin: 0 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  nav svg:hover {
+    transform: scale(1.2);
   }
 }

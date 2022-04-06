@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { HashLink } from "react-router-hash-link";
@@ -11,11 +11,23 @@ import { IoLogoFacebook } from "react-icons/io";
 
 export default function Navbar({ services }) {
   const [click, setClick] = useState(false);
+  const [scroll, handleScroll] = useState(false);
 
   console.log("services:", services);
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 1) {
+        handleScroll(true);
+      } else handleScroll(false); // if not 1px down
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
+
   return (
-    <nav>
+    <nav className={scroll && "nav_bg_blur"}>
       <div className="nav__dropdown">
         <button
           onClick={() => {
