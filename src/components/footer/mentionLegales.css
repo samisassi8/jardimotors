@@ -1,0 +1,16 @@
+div {
+  width: 80%;
+  /* margin: auto; */
+}
+
+#root > div > main > div > p:nth-child(2) {
+  padding-bottom: 40px;
+}
+
+p {
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 2rem;
+}
