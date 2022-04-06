@@ -28,6 +28,7 @@
 *::-webkit-scrollbar {
   display: none;
 }
+
 h1,
 h2,
 h3 {
@@ -49,7 +50,7 @@ main {
   position: relative;
   padding-top: 130px;
   padding-bottom: 50px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   min-height: 100vh;
 }
@@ -64,6 +65,7 @@ main {
 .home__container h1 {
   font-size: 50px;
   font-family: stencil;
+  color: black;
 }
 
 footer {
