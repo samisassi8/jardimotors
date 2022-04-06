@@ -7,6 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
 import { AiFillPhone } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";
+import { IoLogoFacebook } from "react-icons/io";
 
 export default function Navbar({ services }) {
   const [click, setClick] = useState(false);
@@ -41,11 +42,12 @@ export default function Navbar({ services }) {
         <img src={logo} alt="jardimotors" />
       </Link>
       <div className="nav__icon">
-        <button>
-          <a href="tel:+330672337277">
-            <AiFillPhone />
-          </a>
-        </button>
+        <a href="tel:+330672337277">
+          <AiFillPhone />
+        </a>
+        <a href="https://www.facebook.com/jardimotors.henrion">
+          <IoLogoFacebook />
+        </a>
         <Link to="/infos">
           <SiGooglemaps />
         </Link>

@@ -2,8 +2,8 @@
   "details": [
     {
       "title": "Tondeuse",
+      "subTitle": "révisions et entretien",
       "description": [
-        "révisions et entretien",
         "réparation multiples ( moteur, carburation transmission , etc )",
         "affûtage",
         "graissage"
@@ -12,8 +12,8 @@
     },
     {
       "title": "Tondeuse Auto Portée",
+      "subTitle": "révisions et entretien",
       "description": [
-        "révisions et entretien",
         "réparation multiples ( moteur, carburation, transmission, système de coupe, courroies, batterie )",
         "affûtage",
         "crevaison",
@@ -23,32 +23,30 @@
     },
     {
       "title": "Debroussailleuse",
+      "subTitle": "révisions et entretien",
       "description": [
-        "révisions et entretien",
         "réparation multiples ( moteur,  carburation,  allumage, système de coupe )"
       ],
       "img": "/images/debroussailleuse.jpeg"
     },
     {
       "title": "Motoculteur",
+      "subTitle": "révisions et entretien",
       "description": [
-        "révisions et entretien",
         "réparation multiples ( moteur, carburation, transmission ,courroies )"
       ],
       "img": "/images/motoculteur.jpeg"
     },
     {
       "title": "Groupe électrogène",
-      "description": [
-        "révisions et entretien",
-        "Controle et réglages de la tension électrique"
-      ],
+      "subTitle": "révisions et entretien",
+      "description": ["Controle et réglages de la tension électrique"],
       "img": "/images/groupeElectrogene.jpeg"
     },
     {
       "title": "Taille haie",
+      "subTitle": "révisions et entretien",
       "description": [
-        "révisions et entretien",
         "réparation multiples (moteur, carburation, allumage, lanceurs )",
         "affûtage",
         "graissage"
@@ -57,8 +55,8 @@
     },
     {
       "title": "Souffleur",
+      "subTitle": "révisions et entretien",
       "description": [
-        "révisions et entretien",
         "réparation multiples ( système de coupe, moteur, carburation, graissage etc)"
       ],
       "img": "/images/souffleur.jpeg"
