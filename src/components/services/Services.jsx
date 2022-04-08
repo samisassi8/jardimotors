@@ -1,5 +1,5 @@
 import React from "react";
-import "./services/services.css";
+import "./services.css";
 import Flip from "react-reveal/Flip";
 import Bounce from "react-reveal/Bounce";
 import { BsCheck } from "react-icons/bs";

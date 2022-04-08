@@ -22,6 +22,16 @@
       "img": "/images/tondeuseAutoPortee.jpg"
     },
     {
+      "title": "Tronçonneuse",
+      "subTitle": "Révisions et entretien",
+      "description": [
+        "réparation multiples ( système de coupe, moteur, carburation, graissage etc)",
+        "affûtage"
+      ],
+      "img": "/images/tronconneuse.jpeg"
+    },
+
+    {
       "title": "Debroussailleuse",
       "subTitle": "Révisions et entretien",
       "description": [

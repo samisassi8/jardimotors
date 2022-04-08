@@ -1,5 +1,5 @@
 nav {
-  padding: 5px 20px;
+  padding: 5px 0;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.2);
   width: 100%;
@@ -37,19 +37,9 @@ nav {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.35)
-    ),
-    url("../../assets/background2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
 }
 
-h1 {
+.nav__dropdown h1 {
   position: absolute;
   top: 45%;
   left: 0;
@@ -62,6 +52,7 @@ h1 {
 .nav__logo img {
   width: 100%;
   display: flex;
+  padding: 0 10px;
   justify-content: center;
   /* align-items: center; */
   margin-left: auto;
@@ -70,7 +61,7 @@ h1 {
 
 nav button {
   background-color: transparent;
-  /* padding: 20px; */
+  padding: 10px;
   border: none;
   color: black;
 }
@@ -84,6 +75,7 @@ nav button {
 
 nav svg {
   font-size: 25px;
+  padding-right: 10px;
 }
 
 nav button svg:visited {
@@ -100,14 +92,13 @@ nav button:hover {
   padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.859);
   position: absolute;
-  left: 5px;
   top: 85px;
   bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 95vw;
+  width: 100vw;
   border-radius: 10px;
 }
 
@@ -123,7 +114,7 @@ h2 {
   text-align: left;
 }
 
-h2 {
+.nav__dropdown h2 {
   font-size: 28px;
   font-weight: 100;
   letter-spacing: 1.8px;

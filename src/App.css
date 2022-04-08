@@ -1,5 +1,5 @@
 @font-face {
-  font-family: stencil;
+  font-family: stencil2;
   src: url("assets/fonts/Allerta_Stencil/AllertaStencil-Regular.ttf");
 }
 
@@ -12,6 +12,12 @@
 @font-face {
   font-family: didot;
   src: url("assets/fonts/didot/Regular/Didot\ Regular.ttf");
+}
+
+@font-face {
+  font-family: stencil;
+  src: local("./assets/fonts/stencil2/STENCIL.TTF"), format("truetype");
+  font-weight: regular;
 }
 
 :root {
@@ -29,6 +35,10 @@
   display: none;
 }
 
+:-webkit-any-link {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
@@ -37,13 +47,9 @@ h3 {
 }
 .App {
   /* background-image: url("./assets/background.jpg"); */
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   min-height: 100vh;
-  text-align: center;
   min-width: 100vw;
-  min-height: 100vh;
 }
 
 main {
@@ -53,20 +59,29 @@ main {
   /* max-width: 1200px; */
   margin: 0 auto;
   min-height: 100vh;
+  min-width: 100vw;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.55)
+    ),
+    url("./assets/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
-.home__container {
+/* .home__container {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.home__container h1 {
-  font-size: 50px;
-  font-family: stencil;
-  color: black;
-}
+  top: 400px;
+} */
 
 footer {
   height: 50px;
@@ -94,11 +109,3 @@ footer div a {
 }
 
 /* https://www.gardenlust.com.au/ */
-
-@media screen and (min-width: 700px) {
-  .home__container h1 {
-    font-size: 5rem;
-    letter-spacing: 5px;
-    text-shadow: -3px 4px 12px rgba(150, 150, 150, 1);
-  }
-}
