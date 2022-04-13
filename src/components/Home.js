@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import "./home.css";
-// import Slideshow from "./slider/Slider";
+import Slideshow from "./slideshow/slideshow";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <Link to="/services">
           <h1 className="home__title">JARDIMOTORS</h1>
         </Link>
-        {/* <Slideshow /> */}
+        <Slideshow />
         <ul>
           <li>HENRION Stéphane</li>
           <li>Un professionnel à votre service</li>

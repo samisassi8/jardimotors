@@ -13,7 +13,7 @@ export default function Navbar({ services }) {
   const [click, setClick] = useState(false);
   const [scroll, handleScroll] = useState(false);
 
-  // console.log("services:", services);
+  console.log("services:", services);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

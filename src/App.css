@@ -35,10 +35,6 @@
   display: none;
 }
 
-:-webkit-any-link {
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3 {
@@ -46,8 +42,14 @@ h3 {
   letter-spacing: 3px;
 }
 .App {
+  /* background-image: url("./assets/background.jpg"); */
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
+  text-align: center;
   min-width: 100vw;
+  min-height: 100vh;
 }
 
 main {
@@ -57,29 +59,20 @@ main {
   /* max-width: 1200px; */
   margin: 0 auto;
   min-height: 100vh;
-  min-width: 100vw;
-  /* background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.25),
-      rgba(255, 255, 255, 0.55)
-    ),
-    url("./assets/background2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1; */
 }
 
-/* .home__container {
+.home__container {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 400px;
-} */
+}
+
+.home__container h1 {
+  font-size: 50px;
+  font-family: stencil;
+  color: black;
+}
 
 footer {
   height: 50px;
@@ -104,6 +97,16 @@ footer div a {
   text-decoration: none;
   font-size: 1.5em;
   border-radius: 50%;
+}
+
+/* https://www.gardenlust.com.au/ */
+
+@media screen and (min-width: 700px) {
+  .home__container h1 {
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-shadow: -3px 4px 12px rgba(150, 150, 150, 1);
+  }
 }
 
 /* https://www.gardenlust.com.au/ */

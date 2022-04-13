@@ -11,9 +11,7 @@ import MentionsLegales from "./components/footer/MentionsLegales";
 // comment faire de l'import dynamique
 // Si un composant est trop lourd au chargement:
 // const Souffleur = React.lazy(() => import("./components/services/Souffleur"));
-// ensuite il faut utiliser la balise import Caroussel from './components/caroussel/Caroussel';
-/* <Suspense></Suspense>; */
-
+// ensuite il faut utiliser la balise <Suspense></Suspense>
 // url explicative:
 // https://amolbkgunjal.medium.com/react-lazy-a34517190d4d
 
@@ -37,7 +35,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
-              path="/services/services"
+              path="/services/service"
               element={<Services services={data?.details} />}
             />
             <Route path="/infos" element={<Infos />} />
