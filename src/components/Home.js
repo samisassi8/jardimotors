@@ -11,8 +11,8 @@ export default function Home() {
         <Link to="/services">
           <h1 className="home__title">JARDIMOTORS</h1>
         </Link>
-        <Slideshow />
-        <ul>
+        <Slideshow className="slideShow" />
+        <ul className="home__info">
           <li>HENRION Stéphane</li>
           <li>Un professionnel à votre service</li>
           {/* <li>A Ruvigny</li> */}

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home";
-import Infos from "./components/infos/infos";
+import Infos from "./components/infos/Infos";
 import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import MentionsLegales from "./components/footer/MentionsLegales";

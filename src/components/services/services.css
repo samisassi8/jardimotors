@@ -1,9 +1,16 @@
+.services__container {
+  padding: 40px 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
 .services__container h1 {
   display: block;
   padding-top: 100px;
   font-family: stencil;
   font-size: 2rem;
-  text-decoration: underline #adadad;
+  /* text-decoration: underline #adadad; */
 }
 
 .services__container h3 {

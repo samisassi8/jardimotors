@@ -1,7 +1,7 @@
 import React from "react";
 import "./infos.css";
 
-export default function infos() {
+export default function Infos() {
   return (
     <div className="info_container">
       <div className="infos__coordonnees">

@@ -1,9 +1,25 @@
+.slideShow {
+  display: flex;
+  position: relative;
+  margin: 10px auto;
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
 .containerSlide {
-  width: 700px;
-  margin: auto;
-  padding-top: 200px;
+  align-content: space-between;
+  justify-content: center;
+  top: 150px;
+  width: 90vw;
+  height: 20vh;
+  /* margin: 150px auto; */
+  justify-content: center;
+  align-items: right;
   z-index: 200;
-  position: fixed;
 }
 
 .containerSlide img {
