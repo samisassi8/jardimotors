@@ -11,8 +11,10 @@ export default function Home() {
         <Link to="/services">
           <h1 className="home__title">JARDIMOTORS</h1>
         </Link>
-        <Slideshow className="slideShow" />
-        <ul className="home__info">
+      </Fade>
+      <Slideshow className="slideShow" />
+      <div className="home__info">
+        <ul>
           <li>HENRION Stéphane</li>
           <li>Un professionnel à votre service</li>
           {/* <li>A Ruvigny</li> */}
@@ -20,7 +22,7 @@ export default function Home() {
           <li>Matériel de motoculture</li>
           <li>TOUTES MARQUES</li>
         </ul>
-      </Fade>
+      </div>
     </div>
   );
 }

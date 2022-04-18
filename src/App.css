@@ -57,9 +57,9 @@ main {
   position: relative;
   padding-top: 130px;
   padding-bottom: 50px;
-  max-width: 1200px;
+  width: 100vw;
   margin: 0 auto;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* .home__container {
@@ -103,11 +103,9 @@ footer div a {
 /* https://www.gardenlust.com.au/ */
 
 @media screen and (min-width: 700px) {
-  .home__container h1 {
+  /* .home__container h1 {
     font-size: 5rem;
     letter-spacing: 5px;
     text-shadow: -3px 4px 12px rgba(150, 150, 150, 1);
-  }
+  } */
 }
-
-/* https://www.gardenlust.com.au/ */

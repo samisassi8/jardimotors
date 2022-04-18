@@ -8,7 +8,7 @@ export default function Services({ services }) {
   // {services} est égal à props.service. On a destructuré le props.service dans le constructeur de App.js (ligne 36)
   return (
     <>
-      console.log("services", services)
+      {console.log("services", services)}
       <h1>Mes Services</h1>
       {services?.map((service, index) => (
         <div className="services__container" id={service.title.toLowerCase()}>
