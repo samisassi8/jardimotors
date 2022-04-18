@@ -85,6 +85,9 @@
     display: flex;
     letter-spacing: 2.5px;
   }
+  .services__container ul li {
+    font-size: 24px;
+  }
   .service_picture img {
     width: 80%;
   }

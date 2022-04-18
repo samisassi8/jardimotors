@@ -35,7 +35,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
-              path="/services/service"
+              path="/services"
               element={<Services services={data?.details} />}
             />
             <Route path="/infos" element={<Infos />} />
