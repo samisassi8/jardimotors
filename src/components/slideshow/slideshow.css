@@ -41,3 +41,11 @@ button.nav:nth-child(3) {
     height: 300px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .containerSlide {
+    top: 50px;
+  }
+  .containerSlide img {
+    height: 400px;
+  }
+}
