@@ -28,7 +28,7 @@ export default function Infos() {
             <li>Jeu: 09:00 - 12:00, 14:00 - 18:00</li>
             <li>Ven: 09:00 - 12:00, 14:00 - 18:00</li>
             <li>Sam: 09:00 - 12:00, 14:00 - 18:00</li>
-            <li>Dim: 09:00 - 12:00, 14:00 - 18:00</li>
+            <li>Dim: Fermé</li>
           </ul>
         </div>
       </div>
