@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { HashLink } from "react-router-hash-link";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
 import { AiFillPhone } from "react-icons/ai";
