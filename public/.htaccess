@@ -1,0 +1,4 @@
+# Activez HTTPS
+RewriteEngine On
+RewriteCond %{Server_Port} !=443
+RewriteRule ^(.*)$ https://jardimotors.fr/$1 [R=301,L]
