@@ -1,5 +1,6 @@
 nav {
-  padding: 5px 0;
+  /* padding: 5px auto; */
+  margin: 0 100px 0 0;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.2);
   width: 100vw;
@@ -10,7 +11,7 @@ nav {
 }
 
 .nav_bg_blur {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(246, 247, 250, 0.9);
 }
 
 .nav__dropdown {
@@ -39,7 +40,7 @@ nav {
 .nav__logo img {
   width: 100%;
   display: flex;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   justify-content: center;
   /* align-items: center; */
   margin-left: auto;
@@ -130,9 +131,9 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 800px) {
   nav {
-    padding: 25px;
+    padding: 8px;
   }
   .nav__logo {
     position: absolute;
@@ -147,7 +148,7 @@ button:hover {
   }
   nav svg {
     font-size: 33px;
-    margin: 0 5px;
+    margin: 0 35px;
     transition: all 0.2s ease-in-out;
   }
   nav svg:hover {

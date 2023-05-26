@@ -2,7 +2,7 @@
   padding: 40px 15px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #f6f7fa;
 }
 
 .services__container h1 {
@@ -10,7 +10,6 @@
   padding-top: 100px;
   font-family: stencil;
   font-size: 2rem;
-  /* text-decoration: underline #adadad; */
 }
 
 .services__container h3 {
@@ -22,6 +21,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 60px 5px 0 5px;
+  /* eslint-disable-next-line */
+  justify-content: end;
 }
 
 .description {
@@ -97,8 +98,5 @@
   .border {
     width: 70%;
     display: block;
-  }
-  .services__container h3 {
-    padding-top: 160px;
   }
 }

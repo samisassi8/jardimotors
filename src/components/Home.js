@@ -7,6 +7,7 @@ import Slideshow from "./slideshow/slideshow";
 export default function Home() {
   return (
     <div className="home__container">
+      {console.log("prout")}
       <Fade top cascade>
         <Link to="/services">
           <h1 className="home__title">JARDIMOTORS</h1>
@@ -17,15 +18,12 @@ export default function Home() {
         <ul>
           <li>HENRION Stéphane</li>
           <li>Un professionnel à votre service</li>
-          {/* <li>A Ruvigny</li> */}
           <li>Réparation - Entretien</li>
           <li>Matériel de motoculture</li>
           <li>TOUTES MARQUES</li>
         </ul>
       </div>
-    <div>
-      
-    </div>
+      <div></div>
     </div>
   );
 }

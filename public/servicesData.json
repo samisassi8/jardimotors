@@ -28,7 +28,7 @@
         "réparation multiples ( système de coupe, moteur, carburation, graissage etc)",
         "affûtage"
       ],
-      "img": "/images/tronconneuse.jpeg"
+      "img": "/images/tronconneuse.png"
     },
 
     {
@@ -37,7 +37,7 @@
       "description": [
         "réparation multiples ( moteur,  carburation,  allumage, système de coupe )"
       ],
-      "img": "/images/debroussailleuse.jpeg"
+      "img": "/images/debroussailleuse.png"
     },
     {
       "title": "Motoculteur",
@@ -45,13 +45,13 @@
       "description": [
         "réparation multiples ( moteur, carburation, transmission ,courroies )"
       ],
-      "img": "/images/motoculteur.jpeg"
+      "img": "/images/motoculteur.png"
     },
     {
       "title": "Groupe électrogène",
       "subTitle": "Révisions et entretien",
       "description": ["Controle et réglages de la tension électrique"],
-      "img": "/images/groupeElectrogene.jpeg"
+      "img": "/images/groupeElectrogene.png"
     },
     {
       "title": "Taille haie",
@@ -61,7 +61,7 @@
         "affûtage",
         "graissage"
       ],
-      "img": "/images/tailleHaie.jpg"
+      "img": "/images/tailleHaie.png"
     },
     {
       "title": "Souffleur",
@@ -69,7 +69,7 @@
       "description": [
         "réparation multiples ( système de coupe, moteur, carburation, graissage etc)"
       ],
-      "img": "/images/souffleur.jpeg"
+      "img": "/images/souffleur.png"
     }
   ]
 }
